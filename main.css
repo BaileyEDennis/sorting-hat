@@ -1,12 +1,25 @@
 body{
-    background-color: #aed9e0;
+    background-color: #f4a688;
 
 }
 .jumbotron{
-    background-color: #c8553d;
-    color: white;
+    background-color: #fbefcc;
+    color: #674d3c;
 }
 @font-face {
     font-family: 'Magic School Two';
     src: url('http://www.fontsaddict.com/fontface/magic-school-two.ttf');
   }
+
+  #cardSection {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-around;
+}
+
+.card {
+    border: 2px solid black;
+    margin: 2em 0;
+    text-align: center;
+}
