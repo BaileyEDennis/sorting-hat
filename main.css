@@ -1,3 +1,12 @@
-body {
-    background-color: seashell;
+body{
+    background-color: #aed9e0;
+
 }
+.jumbotron{
+    background-color: #c8553d;
+    color: white;
+}
+@font-face {
+    font-family: 'Magic School Two';
+    src: url('http://www.fontsaddict.com/fontface/magic-school-two.ttf');
+  }
